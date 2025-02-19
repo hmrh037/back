@@ -12,10 +12,12 @@
     <meta property="og:type" content="website">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+        
         body {
             font-family: 'Montserrat', sans-serif;
             text-align: center;
-            background: #000;
+            background: url('https://raw.githubusercontent.com/hmrh037/back/refs/heads/main/DALL%C2%B7E%202025-02-19%2016.39.47%20-%20A%20professional%20and%20clean%20background%20image%20for%20a%20course%20page.%20The%20design%20should%20feature%20a%20dark%2C%20somber%20color%20palette%20with%20subtle%20textures%2C%20such%20as%20fain.webp') no-repeat center center fixed;
+            background-size: cover;
             color: #fff;
             padding: 0;
             margin: 0;
@@ -25,6 +27,7 @@
             min-height: 100vh;
             flex-direction: column;
         }
+        
         .container {
             width: 90%;
             max-width: 700px;
@@ -35,27 +38,32 @@
             text-align: center;
             animation: fadeIn 1s ease-in-out;
         }
+        
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(-20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+        
         h1 {
             color: #fff;
             font-size: 32px;
             margin-bottom: 15px;
             font-weight: 700;
         }
+        
         p {
             font-size: 18px;
             color: #fff;
             font-weight: 500;
             margin-bottom: 20px;
         }
+        
         .benefits {
             list-style: none;
             padding: 0;
             margin: 25px 0;
         }
+        
         .benefits li {
             background: rgba(0, 0, 0, 0.8);
             color: white;
@@ -66,15 +74,18 @@
             font-weight: bold;
             transition: transform 0.2s;
         }
+        
         .benefits li:hover {
             transform: scale(1.05);
         }
+        
         .cta {
             font-size: 22px;
             font-weight: bold;
             margin-top: 25px;
             color: #fff;
         }
+        
         .btn-whatsapp {
             display: inline-flex;
             align-items: center;
@@ -92,22 +103,17 @@
             right: 20px;
             z-index: 1000;
         }
-        @media (max-width: 600px) {
-            .btn-whatsapp {
-                bottom: 15px;
-                right: 15px;
-                font-size: 18px;
-                padding: 12px 24px;
-            }
-        }
+        
         .btn-whatsapp img {
             width: 22px;
             margin-right: 8px;
         }
+        
         .btn-whatsapp:hover {
             background: #b30000;
             transform: scale(1.08);
         }
+        
         .footer {
             margin-top: 30px;
             font-size: 16px;
